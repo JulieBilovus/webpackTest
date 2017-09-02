@@ -1,0 +1,40 @@
+{
+  "name": "webpackPractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "stylelint": "(stylelint src/scss/main.scss && stylelint src/scss/variables.scss &&) || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-config-suitcss": "^11.0.0",
+    "stylelint-loader": "^6.2.0",
+    "stylelint-webpack-plugin": "^0.9.0",
+    "tslint": "^5.7.0",
+    "tslint-loader": "^3.5.3",
+    "tslint-webpack-plugin": "^1.0.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "@webpack-blocks/sass": "^0.4.1",
+    "@webpack-blocks/webpack": "^0.4.0",
+    "cosmiconfig": "^2.2.2",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2"
+  },
+  "extends": "stylelint-config-standard"
+}
