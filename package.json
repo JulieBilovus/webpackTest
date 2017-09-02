@@ -19,7 +19,6 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "stylelint": "^8.0.0",
-    "stylelint-config-standard": "^17.0.0",
     "stylelint-config-suitcss": "^11.0.0",
     "stylelint-loader": "^6.2.0",
     "stylelint-webpack-plugin": "^0.9.0",
@@ -30,9 +29,6 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "@webpack-blocks/sass": "^0.4.1",
-    "@webpack-blocks/webpack": "^0.4.0",
-    "cosmiconfig": "^2.2.2",
     "ts-loader": "^2.3.4",
     "typescript": "^2.5.2"
   },
